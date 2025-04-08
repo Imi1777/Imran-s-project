@@ -13,7 +13,7 @@ public interface SoccerLiveKernel extends Standard<SoccerLive> {
      * Will remove and also return any games from the list game.
      * @return the match that is removed from the list.
      * @ensures The match is removed from the list of the games.
-     * 
+     *
      */
     Match removeAnyGame();
 
@@ -21,7 +21,7 @@ public interface SoccerLiveKernel extends Standard<SoccerLive> {
      * shows how many games there is
      * @return the numbers of the games that are listed
      * @ensures the total numbers of game that is returned
-     * 
+     *
      */
     int numberOfGames();
     /**
@@ -31,9 +31,9 @@ public interface SoccerLiveKernel extends Standard<SoccerLive> {
      */
     String showAllGames();
 
-    
 
-    
+
+
 
 
 
