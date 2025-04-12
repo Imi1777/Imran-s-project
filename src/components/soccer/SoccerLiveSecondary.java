@@ -1,3 +1,5 @@
+package components.soccer;
+
 public abstract class SoccerLiveSecondary implements SoccerLive {
 
     @Override

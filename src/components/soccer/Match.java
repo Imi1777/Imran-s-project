@@ -1,3 +1,5 @@
+package components.soccer;
+
 import java.util.List;
 
 /**
@@ -5,5 +7,5 @@ import java.util.List;
  * teams, their players, and the match's score.
  */
 public record Match(String team1, String team2, List<String> team1Players,
-                List<String> team2Players, int team1Score, int team2Score) {
+        List<String> team2Players, int team1Score, int team2Score) {
 }

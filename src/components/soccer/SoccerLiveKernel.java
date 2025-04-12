@@ -1,3 +1,5 @@
+package components.soccer;
+
 import components.standard.Standard;
 
 public interface SoccerLiveKernel extends Standard<SoccerLive> {

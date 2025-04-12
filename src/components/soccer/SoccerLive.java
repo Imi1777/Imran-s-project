@@ -1,3 +1,5 @@
+package components.soccer;
+
 public interface SoccerLive extends SoccerLiveKernel {
 
     /**
