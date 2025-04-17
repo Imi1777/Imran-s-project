@@ -1,5 +1,7 @@
 package components.soccer;
 
+import java.util.Iterator;
+
 import components.queue.Queue;
 import components.queue.Queue1L;
 
@@ -35,22 +37,13 @@ public class SoccerLive1 extends SoccerLiveSecondary {
         this.games.enqueue(g);
     }
 
-    /**
-     * Removes and returns any match from the collection.
-     *
-     * @return The match removed from the collection
-     */
     @Override
-    public Match removeAnyGame() {
+    public final Match removeAnyGame() {
+        assert this.games.length() > 0;
         // removes and returns the front match from the queue
         return this.games.dequeue();
     }
 
-    /**
-     * Returns the number of games in the collection.
-     *
-     * @return The number of games in the queue
-     */
     @Override
     public int numberOfGames() {
         // return how many games are in the queue.
@@ -77,14 +70,8 @@ public class SoccerLive1 extends SoccerLiveSecondary {
         return new SoccerLive1();
     }
 
-    /**
-     * Transfers all games from another SoccerLive object to this one.
-     * 
-     * @param source
-     *            The SoccerLive object to transfer games from
-     */
     @Override
-    public void transferFrom(SoccerLive source) {
+    public final void transferFrom(SoccerLive source) {
         // will Transfer all the games from source to this
         while (source.numberOfGames() > 0) {
             // will dequeue a game from the source
@@ -93,6 +80,11 @@ public class SoccerLive1 extends SoccerLiveSecondary {
             this.addGame(game);
         }
 
+    }
+
+    @Override
+    public Iterator<Match> iterator() {
+        return this.games.iterator();
     }
 
 }

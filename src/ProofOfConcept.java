@@ -34,6 +34,10 @@ public class ProofOfConcept {
         return allGames;
     }
 
+    public List<Match> getGames() {
+        return this.games;
+    }
+
     public static void main(String[] args) {
         ProofOfConcept gamesList = new ProofOfConcept();
         Match manUVsChelsea = new Match("Manchester United", "Chelsea",

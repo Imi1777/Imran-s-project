@@ -2,7 +2,8 @@ package components.soccer;
 
 import components.standard.Standard;
 
-public interface SoccerLiveKernel extends Standard<SoccerLive> {
+public interface SoccerLiveKernel
+        extends Standard<SoccerLive>, Iterable<Match> {
 
     /**
      * This will add the game to the list of the games.
@@ -17,6 +18,7 @@ public interface SoccerLiveKernel extends Standard<SoccerLive> {
      * Will remove and also return any games from the list game.
      *
      * @return the match that is removed from the list.
+     * @requires there are games to remove
      * @ensures The match is removed from the list of the games.
      *
      */
