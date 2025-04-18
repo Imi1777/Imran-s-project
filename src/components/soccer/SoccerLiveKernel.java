@@ -2,6 +2,16 @@ package components.soccer;
 
 import components.standard.Standard;
 
+/**
+ * The SoccerLiveKernel interface extends Standard and Iterable to manage a list
+ * of soccer matches. It provides methods to add, remove, and count games in a
+ * soccer live tracking system.
+ * 
+ * @param SoccerLive
+ *            Represents the soccer live data.
+ * @param Match
+ *            Represents individual soccer matches.
+ */
 public interface SoccerLiveKernel
         extends Standard<SoccerLive>, Iterable<Match> {
 
