@@ -1,8 +1,8 @@
 # Portfolio Part 6: Finishing Touches
 
-- **Name**: <!-- TODO: fill with first and last name (e.g., Brutus Buckeye) and delete this comment -->
-- **Dot Number**: <!-- TODO: fill with OSU dot number (e.g., buckeye.17) and delete this comment -->
-- **Due Date**: <!-- TODO: fill out with due date and time (e.g., 10/17 @ 3:10 PM EST) and delete this comment -->
+- **Name**: Imran Hamad
+- **Dot Number**:hamad.72
+- **Due Date**: 04/18/2025 11:59
 
 ## Assignment Overview
 
@@ -50,7 +50,7 @@ course, but just knowing about them could set you up for long term success.
 
 ## Assignment Checklist
 
-<!-- TODO: browse the checklist then delete this comment -->
+
 
 To be sure you have completed everything on this assignment, we have littered
 this document with TODO comments. You can browse all of them in VSCode by
@@ -141,7 +141,7 @@ to see them. If you don't like this workflow, you may try following the
 rebase strategies described [here](https://stackoverflow.com/questions/35790561/working-while-waiting-for-pending-pr)
 and [here](https://stackoverflow.com/questions/18021888/continue-working-on-a-git-branch-after-making-a-pull-request).
 
-<!-- TODO: make a new branch from main then delete this comment -->
+
 
 ## Assignment Tasks
 
@@ -307,18 +307,37 @@ Take some time to fill them out honestly.
 > complete the portfolio project, how much better (or worse) do you think you
 > understand software development and why?
 
-<!-- TODO: discuss -->
+Doing this project had made it better for me on understanding that software
+development, becasue things at first didn't make sense, I was like how could I come
+up with something and some how make it work by using methods such as kernal methods.
+As I was on this process and thanksfully this assigmnet was broke into parts, I
+loved how I was able to make mistakes and fix them, then just trying to be prefect.
+Making mistakes and asking questions was what made me be better and seeing my
+idea come to life, has made me understand software development better.
 
 > Also, did the portfolio project surface any gaps in your own knowledge of
 > software development. If so, what are those gaps and how did you address them?
 
-<!-- TODO: discuss -->
+yes there was gaps I was a bit shocked of and struggle. What shocked me was that
+I was able to make method in different names and make them work, I thought it
+was just methods that in java you can use, for example in my portfolio I was able
+to make a method name "addGame" while in my head I was like this method is just called
+"add". How I address this was asking questions to my professor and what I learned
+from him I was able to make other methods myself. What I struggle was having the
+idea and not able to put it in code and the reason of that is I did not know
+what method to add and what would work. How I address was I did a lot of searching
+and give it my best and I would show it to my professor and would see where
+I was going with my idea and would tell me on what to change or gives me an idea
+on what works better.
 
 > Finally, as a part of completing the portfolio project, to what extent has
 > your perspective of software development changed, if at all? In other words,
 > is software development something you still enjoy? If not, why not?
 
-<!-- TODO: discuss -->
+yes it is somthing that I stil enjoy and the reason of that is I am able
+to come up with an idea and bring it to life, but it does take patient on seeing
+what method works and it's a process that you teach yourself as you try to
+complete that goal.
 
 > One of the challenges of completing the portfolio project is picking up a lot
 > of skills on your own. Some of these skills are, of course, software skills.
@@ -326,29 +345,46 @@ Take some time to fill them out honestly.
 > this process. Therefore, the first question is what skills did you pick up
 > through this process?
 
-<!-- TODO: discuss -->
+ The one skill that I picked up was searching on the internet. what and how certain
+ methods can work for my project. I also picked up on talking about how I wanted
+ my idea to come alive as being comfortable to speak up and being open minded what
+ my professor would advice me on how my idea can be made. I was also able to
+ learn new methods on how they work.
 
 > The follow-up question is: could you rephrase these skills you picked up
 > as bullet points that you could put on a resume? Try it below.
 
-<!-- TODO: discuss -->
+*Looked things up online to solve coding problems
+
+*Talked through ideas clearly with others
+
+*Listened to feedback and made changes when needed
+
+*Learned and applied new Java methods
+
+
 
 > Next, how has working on this project affected your career trajectory?
 > In other words, do you now hate the topic you picked? Or, are you even more
 > interested in it? Both outcomes are valuable to your personal development.
 
-<!-- TODO: discuss -->
+  I loved the topic I picked because I was able to work with something I enjoy
+  in real life and me somehow mixing it with software made it fun even that it
+  got stressful. As I am working I liked how I was able to keep myself
+  entertain as an able to name this method in soccer terms.
 
 > Finally, consider the skills you've picked up and your current career
 > trajectory. What are some things you could do to continue on your
 > career trajectory? Also, who are some mentors you could contact to help
 > you stay on your path?
 
-<!-- TODO: discuss -->
+The things I will continue for my career is still having the skill on searching
+things on the internet that solve my problems. Communication is also a big skill
+that I will take with me because I leanrned speaking to others and seeing
+what other have to say could slove the problem you are looking for.
 
 ### Changelog
 
-<!-- TODO: update CHANGELOG then delete this comment -->
 
 At the end of every assignment, you should update the
 [CHANGELOG.md](../../CHANGELOG.md) file found in the root of the project folder.
@@ -376,7 +412,7 @@ the following form: YYYY.0M.0D.
 
 ```
 
-Here `YYYY.MM.DD` would be the date of your submission, such as 2024.04.21.
+Here `2025.04.18` would be the date of your submission, such as 2024.04.21.
 
 You may notice that things are nicely linked in the root CHANGELOG. If you'd
 like to accomplish that, you will need to make GitHub releases after each pull

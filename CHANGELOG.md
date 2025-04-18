@@ -8,59 +8,44 @@ the following form: YYYY.0M.0D.
 
 ## [Unreleased]
 
-## [2024.12.30]
+## [2025.04.18]
 
 - Added table-based rubrics to all 6 parts of the project
 - Updated gitignore to exclude more files
 - Fixed image markdown in the interfaces document
 
-## [2024.08.07]
+## [2025.04.18]
 
 ### Added
 
-- Added `/bin` to `.gitignore`, so binaries are no longer committed
-- Added the TODO tree extensions to `extensions.json`
-- Added the `todo-tree.general.showActivityBarBadge` setting to `settings.json`
-- Added the `todo-tree.tree.showCountsInTree` setting to `settings.json`
-- Added the VSCode PDF extension to `extensions.json`
-- Added `java.debug.settings.vmArgs` setting to enable assertions (i.e., `-ea`)
-- Added information about making branches to all parts of the project
-- Added information about how to update the CHANGELOG to every part of the
-  project
+- Designed test suite for SoccerLive component
+- Created two use cases to demonstrate SoccerLive component
+- Added match data and functionality to track game results
+- Added starting 11 players for each match
 - Added information about how to make a pull request to every part of the
   project
 
 ### Changed
 
-- Updated `settings.json` to format document on save using `editor.formatOnSave`
+- Refactored main method to run two different SoccerLive use cases
   setting
-- Updated `settings.json` to exclude certain files from markdown to PDF
-  generation using `markdown-pdf.convertOnSaveExclude` setting
-- Updated `settings.json` to use latest `java.cleanup.actions` setting
-- Updated `settings.json` to automatically choose line endings using `files.eol`
-  setting
-- Updated `settings.json` to organize imports automatically on save using the
-  `editor.codeActionsOnSave` and `source.organizeImports` settings
-- Changed the component brainstorming assignment to ask a few clarifying
-  questions
-- Changed the component brainstorming example from `Point3D` to `NaturalNumber`
-  to avoid the getter/setter trend
-- Updated assignment feedback sections to include a link to a survey that
-  I'll actually review
-- Updated README to include step about using template repo
-- Updated part 3 rubric to include a hierarchy diagram
-- Updated part 6 rubric to account for overall polish
+- Changed my method "Stack" to "Queue"
+- I Improved the output formatting of the soccer results
+- Updated `README.md` to reflect final use case examples and component structure
+- I improved the code structure and naming conventions across SoccerLive implementation
+
 
 ### Fixed
 
-- Fixed issue where checkstyle paths would not work on MacOS
+- I addressed the issues with the match tracking logic and final result reporting
+
 
 ### Removed
 
 - Removed `java.saveActions.organizeImports` setting from `settings.json`
 - Removed references to `Point3D` completely
 
-## [2024.01.07]
+## [2025.04.18]
 
 ### Added
 
