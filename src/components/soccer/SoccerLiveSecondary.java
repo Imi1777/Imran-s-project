@@ -46,7 +46,6 @@ public abstract class SoccerLiveSecondary implements SoccerLive {
         while (this.numberOfGames() > 0) {
             Match current = this.removeAnyGame();
             result += current;
-            // TODO: put game in temporary SoccerLive
             temp.addGame(current);
         }
         while (temp.numberOfGames() > 0) {

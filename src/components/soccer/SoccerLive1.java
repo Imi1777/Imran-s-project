@@ -11,26 +11,13 @@ import components.queue.Queue1L;
  */
 public class SoccerLive1 extends SoccerLiveSecondary {
 
-    // TODO: make constructor
-
-    // TODO: pick representation
-
     private Queue<Match> games;
 
-    /**
-     * Constructor to initialize the games queue.
-     */
     public SoccerLive1() {
         this.games = new Queue1L<>();
 
     }
 
-    /**
-     * Adds a match to the collection.
-     *
-     * @param g
-     *            The match to be added
-     */
     @Override
     public void addGame(Match g) {
         // will add the game to the end of the queue
@@ -50,20 +37,12 @@ public class SoccerLive1 extends SoccerLiveSecondary {
         return this.games.length();
     }
 
-    /**
-     * Clears all games from the collection.
-     */
     @Override
     public void clear() {
         //remove all games from the queue.
         this.games.clear();
     }
 
-    /**
-     * Creates a new instance of SoccerLive1.
-     *
-     * @return A new empty SoccerLive1 object
-     */
     @Override
     public SoccerLive newInstance() {
         // Make and return a new SoccerLive1 object.
